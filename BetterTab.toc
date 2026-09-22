@@ -1,7 +1,7 @@
 ## Interface: 11509
 ## Title: BetterTab
 ## Notes: Swaps your "Target Nearest Enemy" keybind to "Target Nearest Enemy Player" while inside battlegrounds/arenas, and restores it when you leave.
-## Author: You
+## Author: Scyllaqt
 ## Version: 1.0
 ## SavedVariables: BetterTab_DB
 
