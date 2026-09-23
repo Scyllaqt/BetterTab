@@ -41,7 +41,7 @@ local function RegisterSettings()
     local enabled = Settings.RegisterAddOnSetting(category, "BetterTab_Enabled", "enabled",
         db, Settings.VarType.Boolean, "Enable BetterTab", true)
     enabled:SetValueChangedCallback(Refresh)
-    local enabledInit = Settings.CreateCheckbox(category, enabled, "Temporarily swaps your Target Nearest Enemy keybind to Target Nearest Enemy player while in INSTANCED pvp")
+    local enabledInit = Settings.CreateCheckbox(category, enabled, "Temporarily swaps your Target Nearest Enemy keybind to Target Nearest Enemy Player while in INSTANCED pvp")
 
     local av = Settings.RegisterAddOnSetting(category, "BetterTab_DisableInAV", "disableInAV",
         db, Settings.VarType.Boolean, "Disable in Alterac Valley", false)
